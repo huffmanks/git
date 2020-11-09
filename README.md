@@ -9,8 +9,7 @@ git add .
 git commit -m "First commit"
 
 ### Add remote origin
-git remote add origin <Remote repository URL>
-<Remote repository URL> looks like: https://github.com/user/repo.git
+git remote add origin https://github.com/user/repo.git
 
 ### Verifies the new remote URL
 git remote -v
@@ -18,7 +17,7 @@ git remote -v
 ### Push your changes
 git push origin main
 
-### Force (If previous is rejected)
+### Force (If necessary)
 git push origin main --force
 
 # Clone an existing repository
