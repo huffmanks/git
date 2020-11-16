@@ -1,4 +1,3 @@
-
 # Initialize a local directory as a Git repository.
 git init
 
@@ -8,26 +7,17 @@ git add .
 ### Commit your changes
 git commit -m "First commit"
 
+### To main branch
+git branch -M main
+
 ### Add remote origin
 git remote add origin https://github.com/user/repo.git
 
-### Verifies the new remote URL
-git remote -v
-
 ### Push your changes
-git push origin main
+git push -u origin main
 
 ### Force (If necessary)
 git push origin main --force
 
 # Clone an existing repository
-git clone
-
-### Add files
-git add .
-
-### Commit your changes
-git commit -m "First commit"
-
-### Push your changes
-git push origin main
+git clone https://github.com/user/repo.git
